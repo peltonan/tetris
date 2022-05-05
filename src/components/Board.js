@@ -1,11 +1,13 @@
-import BoardCell from "./BoardCell.js";
 import "./Board.css";
+
+import BoardCell from "./BoardCell";
 
 const Board = ({ board }) => {
     const boardStyles = {
-        gridTemplatesRows: `repeat(${board.size.rows}, 1fr)`,
-        gridTemplatesColumns: `repeat (${board.size.columns}, 1fr)`,
+        gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
+        gridTemplateColumns: `repeat(${board.size.columns}, 1fr)`
     };
+
     return (
         <div className="Board" style={boardStyles}>
             {board.rows.map((row, y) =>
@@ -16,4 +18,5 @@ const Board = ({ board }) => {
         </div>
     );
 };
+
 export default Board;

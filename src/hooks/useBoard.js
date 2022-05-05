@@ -7,7 +7,7 @@ export const useBoard = ({
     columns,
     player,
     resetPlayer,
-    addLinesCleared,
+    addLinesCleared
 }) => {
     const [board, setBoard] = useState(buildBoard({ rows, columns }));
 
@@ -20,8 +20,7 @@ export const useBoard = ({
                 addLinesCleared
             })
         );
-    },
-        [player, resetPlayer, addLinesCleared]);
+    }, [player, resetPlayer, addLinesCleared]);
 
     return [board];
 };

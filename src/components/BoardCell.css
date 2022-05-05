@@ -20,7 +20,11 @@
     top: -2px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 4px 4px;
+}
 
+.tetromino.ghost {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .tetromino.ghost .Sparkle {
@@ -28,29 +32,29 @@
 }
 
 .tetromino__i {
-    background-color: aqua;
+    background-color: rgba(80, 227, 230, 1);
 }
 
 .tetromino__j {
-    background-color: blue;
+    background-color: rgba(36, 95, 223, 1);
 }
 
 .tetromino__l {
-    background-color: green;
+    background-color: rgba(223, 173, 36, 1);
 }
 
 .tetromino__o {
-    background-color: red;
+    background-color: rgba(223, 217, 36, 1);
 }
 
 .tetromino__s {
-    background-color: orangered;
+    background-color: rgba(48, 211, 56, 1);
 }
 
 .tetromino__t {
-    background-color: yellow;
+    background-color: rgba(132, 61, 198, 1);
 }
 
 .tetromino__z {
-    background-color: purple;
+    background-color: rgba(240, 80, 195, 1);
 }

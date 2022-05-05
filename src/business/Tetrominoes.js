@@ -1,11 +1,11 @@
-const className = "tetronimo";
+const className = "tetromino";
 
 export const TETROMINOES = {
     I: {
         shape: [
-            [0, 1, 0, 0]
-            [0, 1, 0, 0]
-            [0, 1, 0, 0]
+            [0, 1, 0, 0],
+            [0, 1, 0, 0],
+            [0, 1, 0, 0],
             [0, 1, 0, 0]
         ],
         className: `${className} ${className}__i`
@@ -81,8 +81,8 @@ export const transferToBoard = ({
                 const _x = x + position.column;
                 rows[_y][_x] = { occupied, className };
             }
-
         });
     });
+
     return rows;
 };

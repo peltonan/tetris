@@ -19,7 +19,7 @@ const Tetris = ({ rows, columns, setGameOver }) => {
         columns,
         player,
         resetPlayer,
-        addLinesCleared,
+        addLinesCleared
     });
 
     return (

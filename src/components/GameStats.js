@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./GameStats.css";
 
 const GameStats = ({ gameStats }) => {
@@ -16,4 +17,5 @@ const GameStats = ({ gameStats }) => {
         </ul>
     );
 };
+
 export default React.memo(GameStats);
