@@ -14,7 +14,6 @@ const buildPlayer = (previous) => {
             .map((_) => randomTetromino());
     }
 
-
     return {
         collided: false,
         isFastDropping: false,
@@ -30,5 +29,6 @@ export const usePlayer = () => {
     const resetPlayer = useCallback(() => {
         setPlayer((prev) => buildPlayer(prev));
     }, []);
+
     return [player, setPlayer, resetPlayer];
 };
