@@ -4,7 +4,6 @@ const defaultDropTime = 1000;
 const minimumDropTime = 100;
 const speedIncrement = 50;
 
-
 export const useDropTime = ({ gameStats }) => {
     const [dropTime, setDropTime] = useState(defaultDropTime);
     const [previousDropTime, setPreviousDropTime] = useState();
@@ -31,5 +30,5 @@ export const useDropTime = ({ gameStats }) => {
         setDropTime(newDropTime);
     }, [gameStats.level, setDropTime]);
 
-    return [dropTime, setPreviousDropTime];
+    return [dropTime, pauseDropTime, resumeDropTime];
 };
