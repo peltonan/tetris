@@ -69,7 +69,7 @@ const attemptMovement = ({
         delta.row += 1;
     } else if (action === Action.Left) {
         delta.column -= 1;
-    } else if (action === Action.right) {
+    } else if (action === Action.Right) {
         delta.column += 1;
     }
 
