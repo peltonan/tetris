@@ -8,11 +8,11 @@ const Previews = ({ tetrominoes }) => {
         .reverse();
 
     return (
-        <>
+        <div className="PreviewWrapper">
             {previewTetrominoes.map((tetromino, index) => (
                 <Preview tetromino={tetromino} index={index} key={index} />
             ))}
-        </>
+        </div>
     );
 };
 

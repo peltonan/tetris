@@ -1,5 +1,4 @@
 .Preview {
-  position: absolute;
   top: 0;
   left: 72.2vw;
   background: rgba(0, 0, 0, 0.1);
@@ -14,4 +13,10 @@
   grid-template-columns: repeat(4, 1fr);
   width: 11vw;
   height: 11vw;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.PreviewWrapper {
+  display: flex;
 }
