@@ -1,3 +1,5 @@
+/* @import url('http://fonts.cdnfonts.com/css/tetris'); */
+
 .Menu {
     display: flex;
     justify-content: center;
@@ -7,10 +9,19 @@
 }
 
 .Button {
+    /* font-family: 'Tetris', sans-serif; */
     padding: 40px 80px;
     font-size: 2em;
     border-radius: 20px;
     border: none;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
     cursor: pointer;
+    background-color: rgb(240, 255, 255);
+    box-shadow: 0 0 50px #6fffe7;
 }
+
+/* .GameTitle {
+    display: flex;
+    color: antiquewhite;
+    background-color: antiquewhite;
+
+} */

@@ -17,5 +17,6 @@
 .PreviewWrapper {
   display: flex;
   flex-direction: column-reverse;
-  padding-bottom: 5rem;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
 }

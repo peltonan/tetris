@@ -12,3 +12,8 @@
   height: 100vh;
   padding: 20px;
 }
+
+h1 {
+  color: white;
+  background-color: #fff;
+}

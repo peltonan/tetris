@@ -1,4 +1,5 @@
 .GameStats {
+    padding-left: 2rem;
     list-style-type: none;
     color: rgba(255, 255, 255, 0.5);
     order: 1;
@@ -14,6 +15,20 @@
 
 .GameStats .value {
     font-size: 2.8rem;
-    margin-bottom: 0.5em;
+    margin-bottom: 1rem;
     color: rgba(255, 255, 255, 1);
+}
+
+@media only screen and (max-width: 560px) {
+    .GameStats {
+        font-size: 1rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .GameStats .value {
+        font-size: 1rem;
+        margin-bottom: auto;
+    }
 }
