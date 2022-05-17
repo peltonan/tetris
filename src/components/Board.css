@@ -4,10 +4,11 @@
   grid-gap: 2px;
   width: 45vw;
   height: 90vw;
-  background: rgb(32, 0, 64);
-  border: 10px solid rgb(32, 0, 64);
+  background: rgb(15, 0, 27);
+  border: 10px solid rgb(215, 253, 249);
+  box-shadow: 0 0 17px #47fddf;
   border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
   max-width: 407px;
   max-height: 815px;
 }
