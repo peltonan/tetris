@@ -26,8 +26,8 @@ const Tetris = ({ rows, columns, setGameOver }) => {
                 <div></div>
                 <Board board={board} />
                 <div>
-                    <GameStats gameStats={gameStats} />
                     <Previews tetrominoes={player.tetrominoes} />
+                    <GameStats gameStats={gameStats} />
                 </div>
             </div>
             <GameController
