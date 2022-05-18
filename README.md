@@ -6,8 +6,8 @@ It's a Tetris game.
 
 ## What did I learn?
 
-I followed a code along from a Youtube video to learn how to write code, and getting a better grasp of React - how it works.
-I also got a better understanding of the coding environment, and learned a little about Hooks and Components.
+I followed a code-along from a Youtube video to learn how to write code, and getting a better grasp of React - how it works.
+I got a better understanding of the coding environment, and learned a little about Hooks and Components.
 After finishing the code along I did my own tweaks to the game, mostly CSS styling.
 
 ## Credits
