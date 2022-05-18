@@ -2,7 +2,7 @@ import './App.css';
 import Game from "./components/Game";
 import { useEffect } from 'react';
 
-// Credits Restful Coder//
+// Tetris Game by Restful Coder//
 
 
 function App() {
