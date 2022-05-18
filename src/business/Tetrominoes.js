@@ -1,5 +1,7 @@
 const className = "tetromino";
 
+// Tetris Game by Restful Coder//
+
 export const TETROMINOES = {
     I: {
         shape: [

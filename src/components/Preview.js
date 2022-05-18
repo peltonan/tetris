@@ -6,6 +6,7 @@ import { transferToBoard } from "../business/Tetrominoes";
 
 import BoardCell from "./BoardCell";
 
+// Tetris Game by Restful Coder//
 
 const Preview = ({ tetromino, index }) => {
     const { shape, className } = tetromino;

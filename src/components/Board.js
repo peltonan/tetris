@@ -2,6 +2,8 @@ import "./Board.css";
 
 import BoardCell from "./BoardCell";
 
+// Tetris Game by Restful Coder//
+
 const Board = ({ board }) => {
     const boardStyles = {
         gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,

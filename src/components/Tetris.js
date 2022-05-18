@@ -9,6 +9,8 @@ import { useBoard } from "../hooks/useBoard";
 import { useGameStats } from "../hooks/useGameStats";
 import { usePlayer } from "../hooks/usePlayer";
 
+// Tetris Game by Restful Coder//
+
 const Tetris = ({ rows, columns, setGameOver }) => {
     const [gameStats, addLinesCleared] = useGameStats();
     const [player, setPlayer, resetPlayer] = usePlayer();

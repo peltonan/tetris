@@ -2,6 +2,8 @@ import React from "react";
 
 import "./GameStats.css";
 
+// Tetris Game by Restful Coder//
+
 const GameStats = ({ gameStats }) => {
     const { level, points, linesCompleted, linesPerLevel } = gameStats;
     const linesToLevel = linesPerLevel - linesCompleted;

@@ -6,6 +6,8 @@ import { playerController } from "../business/PlayerController";
 import { useDropTime } from "../hooks/useDropTime";
 import { useInterval } from "../hooks/useInterval";
 
+// Tetris Game by Restful Coder//
+
 const GameController = ({
     board,
     gameStats,

@@ -3,11 +3,7 @@ import Tetris from "./Tetris";
 
 import { useGameOver } from "../hooks/useGameOver";
 
-<header>
-    <div>
-        <h1>TETRIS</h1>
-    </div>
-</header>
+// Tetris Game by Restful Coder//
 
 const Game = ({ rows, columns }) => {
     const [gameOver, setGameOver, resetGameOver] = useGameOver();

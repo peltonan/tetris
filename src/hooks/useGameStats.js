@@ -1,5 +1,7 @@
 import { useState, useCallback } from "react";
 
+// Tetris Game by Restful Coder//
+
 const buildGameStats = () => ({
     level: 1,
     linesCompleted: 0,

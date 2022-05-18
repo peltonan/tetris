@@ -1,5 +1,7 @@
 import { useState, useCallback, useEffect } from "react";
 
+// Tetris Game by Restful Coder//
+
 const defaultDropTime = 1000;
 const minimumDropTime = 100;
 const speedIncrement = 50;

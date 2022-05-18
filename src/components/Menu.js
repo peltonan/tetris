@@ -1,5 +1,6 @@
 import "./Menu.css";
 
+// Tetris Game by Restful Coder//
 
 const Menu = ({ onClick }) => {
     return (

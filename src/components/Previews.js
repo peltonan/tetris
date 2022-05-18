@@ -2,6 +2,8 @@ import React from "react";
 
 import Preview from "./Preview";
 
+// Tetris Game by Restful Coder//
+
 const Previews = ({ tetrominoes }) => {
     const previewTetrominoes = tetrominoes
         .slice(1 - tetrominoes.length)

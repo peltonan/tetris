@@ -2,6 +2,8 @@ import { hasCollision, isWithinBoard } from "./Board"
 import { rotate } from "../business/Tetrominoes";
 import { Action } from "./Input";
 
+// Tetris Game by Restful Coder//
+
 const attemptRotation = ({ board, player, setPlayer }) => {
     const shape = rotate({
         piece: player.tetromino.shape,
