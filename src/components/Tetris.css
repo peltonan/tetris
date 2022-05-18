@@ -8,3 +8,26 @@
     align-items: end;
 
 }
+
+.NextBlock {
+    display: flex;
+    justify-items: start;
+    font-size: 30px;
+    color: rgb(189, 255, 249);
+    margin-left: 1rem;
+}
+
+/* .ArrowDown {
+    display: flex;
+    justify-items: start;
+    color: rgba(255, 255, 255, 1);
+    font-size: 50px;
+    padding-left: 3.5rem;
+}
+ */
+
+@media only screen and (max-width: 900px) {
+    .NextBlock {
+        display: none;
+    }
+}

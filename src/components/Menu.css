@@ -1,11 +1,11 @@
-/* @import url('http://fonts.cdnfonts.com/css/tetris'); */
+@import url('http://fonts.cdnfonts.com/css/tetris');
 
 .Menu {
-    display: flex;
     justify-content: center;
     align-items: center;
     min-height: 50vh;
     z-index: 100;
+    padding-top: 4rem;
 }
 
 .Button {
@@ -16,11 +16,36 @@
     border: none;
     cursor: pointer;
     background-color: rgb(240, 255, 255);
-    box-shadow: 0 0 50px #6fffe7;
+    box-shadow: 0 0 40px #6fffe7;
 }
 
 .GameTitle {
-    display: flex;
-    color: antiquewhite;
+    font-family: "Tetris", sans-serif;
+    font-size: 120px;
+    color: rgb(189, 255, 249);
+    text-align: center;
+    padding-bottom: 2rem;
+}
 
+p {
+    padding-bottom: 1.5rem;
+    color: rgb(189, 255, 249);
+}
+
+h2 {
+    padding-bottom: 1.5rem;
+    text-decoration: underline;
+    color: rgb(189, 255, 249);
+}
+
+@media only screen and (max-width: 900px) {
+    .GameTitle {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .Menu {
+        min-height: auto;
+    }
 }

@@ -1,6 +1,11 @@
 .Preview {
   border: 10px solid rgba(0, 0, 0, 0);
   border-radius: 10px;
+  padding-bottom: 2rem;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: rgba(18, 15, 223, 0.164);
+  margin-bottom: 1rem;
 }
 
 .Preview-board {
@@ -12,11 +17,38 @@
   height: 11vw;
   max-width: 100px;
   max-height: 100px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .PreviewWrapper {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   padding-left: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 14rem;
+}
+
+.PreviewWrapper .Preview:first-child {
+  background-color: rgba(0, 26, 255, 0.568);
+}
+
+@media only screen and (max-height: 1280px) {
+  .PreviewWrapper {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .PreviewWrapper {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Preview {
+    padding: 0;
+    margin-bottom: 0.5rem;
+  }
 }
