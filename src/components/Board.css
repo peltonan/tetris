@@ -12,3 +12,9 @@
   max-width: 407px;
   max-height: 815px;
 }
+
+@media only screen and (max-width: 1280px) {
+  .Board {
+    max-height: 710px;
+  }
+}
